@@ -1,0 +1,23 @@
+h1,p{
+    color: black;
+    padding-bottom:20px;
+    padding-top:20px;
+    font-weight: bold;
+}
+.whole-component{
+    height:250px;
+    width:700px;
+    margin-left:400px;
+    background-color: #f68989;
+    text-align: center;
+    border:1px solid;
+    border-radius:25px;
+    margin-top:10px;
+}
+button{
+    width:150px;
+    height:25px;
+    background-color: #fcf4ec;
+    font-weight: bold;
+    border-radius: 15px;
+}

@@ -1,0 +1,25 @@
+<div class = "whole-component">
+    <h1>Component A</h1>
+<div>
+<table>
+    <thead>
+        <tr>
+            <th>Sl.no</th>
+            <th>A.ID</th>
+            <th>Name</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let employee of data">
+            <td>{{employee.No}}</td>
+            <td>{{employee.AID}}</td>
+            <td>{{employee.Name}}</td>
+            <td>{{employee.Grade}}</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+
+</div>
+        <app-component-b (callToParent) = "view_table($event)"></app-component-b>

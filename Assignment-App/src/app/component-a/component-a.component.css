@@ -1,0 +1,24 @@
+h1{
+    text-align:center;
+    color:black;
+}
+.whole-component{
+    height:400px;
+    width:700px;
+    margin-left:400px;
+    background-color: #f68989;
+    text-align: center;
+    border:1px solid;
+    border-radius:25px;
+    margin-bottom:10px;
+}
+table,th,td{
+    margin-left:200px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    padding-left:20px;
+    padding-right:20px;
+    height:30px;
+    background-color: #fcf4ec;
+}
